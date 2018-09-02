@@ -86,6 +86,11 @@ else
 	puts "time é exatamente igual a hora atual"
 end
 
+
+# <, >, <=, >=, !=, !, ==, 
+# &&, !, ||
+#and, not, or
+
 #lendo do teclado
 puts "Informe sua idade"
   idade = gets.to_i
@@ -128,6 +133,7 @@ for i in 0..10 do
 	puts i
 end
 
+
 #times
 
 puts "============= TIMES ==============="
@@ -156,3 +162,12 @@ puts materias_da_ufmg[:Controle]
 #nada mais é que um par de chave valor
 #verificando o tipo
 puts materias_da_ufmg.class
+
+#iterando sobre uma string (cada itereção um caractere daquela string)
+
+nome = "Marina Loures"
+
+nome.each_char { |c|
+    puts c
+}
+
